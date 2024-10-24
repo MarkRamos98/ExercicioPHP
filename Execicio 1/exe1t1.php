@@ -10,9 +10,9 @@
 
 	<form action="" method="">
 
-		<div class="Orizon"> <!--organização orizontal-->
+		<div class="Orizon"> <!--organização horizontal centro-->
 			
-			<div class="Cubo">
+			<div class="Cubo"> <!--quadradinho de item-->
 
 				<label for="nome">Nome:</label><br><br><br>
 				
@@ -28,7 +28,7 @@
 
 			</div>
 
-			<div class="Cubo">
+			<div class="Cubo"> <!--quadradinho de item-->
 
 				<input type="text" name="nome" id="nome" autocomplete="off" required autofocus maxlength="30"><br><br><br>
 				<input type="text" name="Idade" id="Idade" autocomplete="off" required maxlength="3"><br><br><br>
@@ -39,12 +39,16 @@
 			
 			<br>
 
-		</div> <!--organização orizontal-->
+		</div> 
 
-		<div class="Cubo">
+		<div class="Orizon">
 
-			<input type="submit" name="Enviar" value="Enviar" class="btn btn-primary">
-			<input type="reset" name="Limpar" value="Limpar" class="btn btn-light">
+			<div class="Cubo"> <!--quadradinho de item-->
+
+				<input type="submit" name="Enviar" value="Enviar" class="btn btn-primary">
+				<input type="reset" name="Limpar" value="Limpar" class="btn btn-light">
+
+			</div>
 
 		</div>
 
