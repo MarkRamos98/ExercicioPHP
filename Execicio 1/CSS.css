@@ -1,0 +1,21 @@
+.Cubo{
+
+	width: fit-content;
+	height: fit-content;
+	line-height: 1.5;
+	padding: 10px;
+	justify-content: center; 
+    align-items: center; 
+
+} /* quadradinho de item*/
+
+.Orizon{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+    align-items: center;
+
+} /* organização orizontal */
