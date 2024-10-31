@@ -18,3 +18,21 @@
     align-items: center;
 
 } /* organização horizontal centro */
+
+.orient{
+
+	width: fit-content;
+	height: fit-content;
+	font-size: 20;
+	font-style: oblique;
+	font-weight: bolder;
+
+}
+
+.title{
+
+	width: 100%;
+	height: fit-content;
+	
+
+}
