@@ -1,9 +1,9 @@
 <?php 
 
-session_start()
+session_start();
 
  ?>
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -13,21 +13,18 @@ session_start()
 </head>
 <body>
 
-	<form action="guardar.php" method="">
+	<form action="Salvar.php" method="post">
 
 		<div class="Orizon"> <!--organização horizontal centro-->
 			
 			<div class="Cubo"> <!--quadradinho de item-->
 
+				<label id="pessoa">Pessoa 2</label><br><br><br>
+
+
 				<label for="nome">Nome:</label><br><br><br>
-				
-
 				<label for="Idade">Idade:</label><br><br><br>
-				
-
 				<label for="Peso">Peso:</label><br><br><br>
-				
-
 				<label for="Altura">Altura:</label>
 				
 
@@ -35,10 +32,12 @@ session_start()
 
 			<div class="Cubo"> <!--quadradinho de item-->
 
-				<input type="text" name="nome" id="nome" autocomplete="off" required autofocus maxlength="30"><br><br><br>
-				<input type="text" name="Idade" id="Idade" autocomplete="off" required maxlength="3"><br><br><br>
-				<input type="text" name="Peso" id="Peso" autocomplete="off" required autofocus maxlength="3"><br><br><br>
-				<input type="text" name="Altura" id="Altura" autocomplete="off" required autofocus maxlength="4">
+				<input type="text" name="pessoa" id="pessoa" autocomplete="off" required maxlength="10" value="Pessoa 2" readonly><br><br><br>
+
+				<input type="text" name="nome1" id="nome1" autocomplete="off" required autofocus maxlength="30"><br><br><br>
+				<input type="text" name="idade1" id="idade1" autocomplete="off" required maxlength="3"><br><br><br>
+				<input type="text" name="peso1" id="peso1" autocomplete="off" required maxlength="3"><br><br><br>
+				<input type="text" name="altura1" id="altura1" autocomplete="off" required maxlength="4">
 
 			</div>
 			
